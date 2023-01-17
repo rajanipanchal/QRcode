@@ -13,22 +13,27 @@
 
 }
 .box2{
-  
+  width: 50%;
    border-radius: 15px;
     padding: 50px 66px;
  background: linear-gradient(45deg, black, transparent);;
 }
 .box2 img{
 width: 80%;
+padding-top: 2em;
 }
 .box1{ 
-    margin: 20px;}
+    margin: 20px;
+}
 
 .box1 p{
 font-size: 12px;
-line-height: 0px;
+
 
 } 
+.container{
+    padding: 5em;
+}
 .box1 h4{
     margin-top: 2px;
 font-size: 12px;
@@ -36,5 +41,25 @@ font-size: 12px;
 .box1 h5{
     font-size: 10px ;
     color: whitesmoke;
-    line-height: 0px;
+  
+}
+.limg img {
+    width: 101%;
+}
+@media(max-width:768px){
+    .container{
+     padding: 1em;
+    }
+    .box1{
+        margin: 10px;
+    }
+    .box1 p{
+       font-size: 10px; 
+    }
+    .box2 {
+        padding: 20px 30px;
+    }
+    .btn.btn-primary.rounded-0{
+        font-size: 10px;
+    }
 }
